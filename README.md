@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Snapgram
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SnapGram is a modern social media application where users can create an account, post photos, edit or delete their posts, and interact with others. Built with a robust and scalable tech stack, SnapGram offers a seamless user experience with an intuitive UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 📸 Create an account and log in
+- 🖼️ Upload and share photos
+- ✏️ Edit or delete posts
+- 💬 Engage with posts (likes, comments, etc.)
+- 🔐 Secure authentication & authorization
+- 🎨 Responsive UI for all devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React.js, TypeScript, Tailwind CSS
+- **Backend & Database:** Appwrite
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
